@@ -49,7 +49,7 @@ proxies:
         Host: id2-ray.ipservers.xyz
     udp: true
   - name: AmazonID2
-    server: quiz.int.vidio.com
+    server: 104.17.71.206
     port: 443
     type: vless
     uuid: 528787c8-15dc-4f82-b663-b7a7ae309657
