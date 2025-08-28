@@ -32,21 +32,21 @@ dns:
     - 1.1.1.1
     - 112.215.203.254
 proxies:
-  - name: AKUN1
+  - name: lionssh_vgtxnef
     server: quiz.int.vidio.com
     port: 443
     type: vmess
-    uuid: 652a5160-7c25-11f0-847c-1239d0255272
+    uuid: 64f604bf-6318-4e78-bd71-a7074fabbe48
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sg3.yanxx.my.id
+    servername: id6.serverkit.pw
     network: ws
     ws-opts:
-      path: /vmws
+      path: /vmess
       headers:
-        Host: sg3.yanxx.my.id
+        Host: id6.serverkit.pw
     udp: true
   - name: AmazonID2
     server: 104.17.71.206
@@ -115,7 +115,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - AKUN1
+      - lionssh_vgtxnef
       - AmazonID2
       - FCConvergeDataCenterIncID5
 
