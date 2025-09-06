@@ -32,21 +32,21 @@ dns:
     - 1.1.1.1
     - 112.215.203.254
 proxies:
-  - name: lionssh_vgtxnef
+  - name: Trial7117-TLS
     server: quiz.int.vidio.com
     port: 443
     type: vmess
-    uuid: 64f604bf-6318-4e78-bd71-a7074fabbe48
+    uuid: 55512304-2122-40c2-b2ba-46d567b772c3
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: id6.serverkit.pw
+    servername: sg1.ipvps.My.id
     network: ws
     ws-opts:
       path: /vmess
       headers:
-        Host: id6.serverkit.pw
+        Host: sg1.ipvps.My.id
     udp: true
   - name: AmazonID2
     server: 104.17.71.206
